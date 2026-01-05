@@ -1,8 +1,9 @@
 // ═══════════════════════════════════════════════════════════════════════════════
-// CELESTIAL ORRERY - Backward Compatibility Export
-// This file provides backward compatibility with the original component structure
+// CELESTIAL ORRERY - Main Export
+// Complete component with UI controls
 // ═══════════════════════════════════════════════════════════════════════════════
 
 'use client';
 
-export { CelestialOrreryCore as default } from './CelestialOrrery/CelestialOrreryCore';
+export { CelestialOrreryCore } from './CelestialOrreryCore';
+export { CelestialOrreryCore as default } from './CelestialOrreryCore';
